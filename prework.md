@@ -6,7 +6,7 @@ There are quite a few tasks and learning topics that are necessary to take care 
 
 We don’t believe you can really learn to program by watching a few videos and answering some questions (and if you believed that, you probably wouldn’t be coming to The Iron Yard). However, skill acquisition takes a long time, and this work will help introduce you to some of the ideas and skills that will form the foundation of your in-person learning experience.
 
-This work should be completed by March 21, one work before class begins. I will assume that you have completed this work before class, so you will likely feel very far behind if you haven’t finished when we start class on March 28. If you have ANY questions at all, please reach out to me at <sam.boyarsky@theironyard.com>.
+This work should be completed by October 17, one work before class begins. I will assume that you have completed this work before class, so you will likely feel very far behind if you haven’t finished when we start class on October 24. If you have ANY questions at all, please reach out to me at <sam.boyarsky@theironyard.com>.
 
 In order to complete some of these tasks, you will need to [register for an account with Treehouse](http://referrals.trhou.se/clintondreisbach). Treehouse is free for 7 days (which should be enough to finish the required courses), and is $25/month after the trial. You will not be required to use Treehouse after completing the prework, but you are welcome to continue your subscription if you find it valuable.
 
