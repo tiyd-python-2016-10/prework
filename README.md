@@ -1,4 +1,4 @@
-# The Iron Yard Durham - Python - Cohort 6
+# The Iron Yard Durham - Python - October, 2016 Cohort
 
 Welcome to the Python class at The Iron Yard in Durham! We are going to have an amazing semester. You're going to need to do a few things to get ready before we start class:
 
