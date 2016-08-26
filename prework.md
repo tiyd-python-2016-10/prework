@@ -47,16 +47,23 @@ $ git config --global core.excludesfile ~/.gitignore
 
 Sign up for an account at [Treehouse](http://teamtreehouse.com). Signing up does require a credit card, but you will have a free trial for the first 7 days. If you do not have any access to a credit card, that is ok! Let me know via email and I can help you make that happen.
 
-## Topic 1: Your Brain
+## Topic 1: Your Brain and Body
 
 Read the following articles:
 
 * [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 * [Top-down thinkers vs Bottom-up thinkers](http://en.wikipedia.org/wiki/Top-down_and_bottom-up_design) - Read from the top down through the "Programming" section (2.2) of this page.
 
+Watch this video:
+https://www.youtube.com/watch?v=hY14Er6JX2s
+
 After reading the articles, please fill out the following survey:
 
-* [Prework Survey 1](http://goo.gl/forms/nKxyR7IELb)
+* [Prework Survey 1](http://goo.gl/3vfwBr)
+
+Typing speed
+Nutrition
+Sleep
 
 ## Topic 2: Python
 
@@ -101,7 +108,7 @@ Almost done. Although we're not going to talk about them in the first few weeks 
 
 Once you have finished the prework given above, complete the following survey:
 
-* [Prework Survey 2](http://goo.gl/forms/c9oeHokNfE)
+* [Prework Survey 2](http://goo.gl/dKVDmU)
 
 Whew, you did it. Now, your only remaining assignment is to get some sleep before class starts. You're going to need it!
 
