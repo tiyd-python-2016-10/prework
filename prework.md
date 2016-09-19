@@ -64,7 +64,7 @@ After reading the articles, please fill out the following survey:
 * [Prework Survey 1](http://goo.gl/3vfwBr)
 
 ### Taking care of yourself
-You are about to embark on an intense journey.  Proper nutrition and sleep are important components for success.  It is time to mentally prepare yourself for this experience.  Read up on how nutrition and sleep affect learning.
+You are about to embark on an intense journey.  Proper nutrition and sleep are important components for success.  It is time to mentally prepare yourself for this experience.  You may want to read up on how nutrition and sleep affect learning.
 
 ## Topic 2: Python
 
