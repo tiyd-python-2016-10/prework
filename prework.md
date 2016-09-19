@@ -57,13 +57,14 @@ Read the following articles:
 Watch this video:
 https://www.youtube.com/watch?v=hY14Er6JX2s
 
+Programming requires lots of typing.  If you are not comfortable touch-typing, please practice.  There are lots of free places to practice, here is [one](http://www.typingtest.com).
+
 After reading the articles, please fill out the following survey:
 
 * [Prework Survey 1](http://goo.gl/3vfwBr)
 
-Typing speed
-Nutrition
-Sleep
+### Taking care of yourself
+You are about to embark on an intense journey.  Proper nutrition and sleep are important components for success.  It is time to mentally prepare yourself for this experience.  Read up on how nutrition and sleep affect learning.
 
 ## Topic 2: Python
 
