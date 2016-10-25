@@ -34,7 +34,7 @@ Again, we want to have all of these kinks worked out in advance, so PLEASE e-mai
     1. Run `brew doctor`
     1. Run `brew install readline git python3 direnv tree wget trash bash-completion`
     1. Run `sudo easy_install pip`
-    1. Run `sudo pip install virtualenv`
+    1. Run `pip3 install flake8`
 
 * Install Atom
     1. Download Atom from [the Atom website](https://atom.io/).
@@ -42,5 +42,6 @@ Again, we want to have all of these kinks worked out in advance, so PLEASE e-mai
     1. Move the Atom application into your Applications folder.
     1. Run Atom.
     1. Once Atom has started, click the Atom menu and run **Install Shell Commands**.
+    1. run `apm install linter-flake8` from your terminal
 
 * Install [Google Chrome](https://www.google.com/intl/en/chrome/browser/)
