@@ -1,5 +1,6 @@
 from currency import Currency
 
+
 def test_add_two_currencies():
     one_dollar = Currency('USD', 1)
     two_dollars = Currency('USD', 2)

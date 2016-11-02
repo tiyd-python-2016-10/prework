@@ -1,0 +1,15 @@
+building code backwards.
+make it more modular.
+make code more minimalist.
+minimum code to pass tests.
+    refactoring.
+
+Red - Write a test that doesn't pass.
+      run the test (to watch it fail)
+Green - Write code to pass test.
+        run test to watch it pass
+Refactor - remove duplicate code, reduce complexity, improve code
+         - push to GitHub (as appropriate)
+
+
+
