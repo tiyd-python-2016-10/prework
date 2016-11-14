@@ -1,0 +1,58 @@
+/* comment in css */
+
+h1{
+    color: purple;
+}
+
+body{
+    color: red;
+}
+
+
+div{
+    color: green;
+}
+
+span{
+    color:orange;
+}
+
+
+/*id selector...  selects an element with the specified id
+... starts with a hash followed by the id value
+
+id is the value of an id attributed on an html element.
+There should be only one element with any id in a given HTML document.
+*/
+#spam_is_good{
+    background-color: pink;
+}
+
+/*class selector...  selects an element with the specified class
+... starts with a period followed by the class name
+
+class names are the value of a class attribute on an html element
+*/
+.class_is_spam{
+    background-color: chartreuse;
+}
+
+
+table:hover, tr:hover, td:hover{
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+[blah]{
+    background-color: purple;
+}
+
+[blah=di]{
+    background-color: red;
+}
+
+
+img:hover{
+    cursor: pointer;
+}
