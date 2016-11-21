@@ -1,6 +1,7 @@
 solutions
 grading
 .direnv
+.envrc
 *.pyc
 .DS_Store
 .ipynb_checkpoints/
@@ -9,3 +10,5 @@ students.txt
 new_file.txt
 another_file.txt
 sql
+secrets.py
+db.sqlite3
