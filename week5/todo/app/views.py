@@ -1,10 +1,10 @@
-from django.shortcuts import render, HttpResponse, HttpResponseRedirect, reverse
+from django.shortcuts import render, HttpResponseRedirect, reverse
 from django.views import View
 from app.models import Task, Status
 
 
 def index(request):
-    context = { "tasks": Task.objects.all() }
+    context = {"tasks": Task.objects.all()}
     return render(request, "index.html", context)
 
 
@@ -36,10 +36,9 @@ class TaskView(View):
             t.save()
         else:
             t = Task.objects.create(task=request.POST['task'],
-                                status_id=request.POST['status'])
+                                    status_id=request.POST['status'])
         return HttpResponseRedirect(reverse('index'))
         return render(request, self.template_name, {"task": t})
-
 
 
 class StatusView(View):
