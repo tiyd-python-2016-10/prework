@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse, HttpResponseRedirect#, Http404
+from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.core.urlresolvers import reverse
 
 from .models import Question, Choice
@@ -23,6 +23,8 @@ def index(request):
 
 
 def rutroh(request):
+    val = "Try this"
+    return JsonResponse({"key": "value", "anotherKey": val})
     return HttpResponse("heeeheeeheheheeheee")
 
 
