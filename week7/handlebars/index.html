@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        test
+        <div id="main"></div>
+
+    <script id="post-template" type="text/x-handlebars-template">
+        <article class="post-container">
+          <header>{{title}}</header>
+          <h1>{{fullname name}}</h1>
+          <aside>
+            {{#unless image}}
+            <img src="default.jpg" alt="{{author}}">
+            {{else}}
+              <img src="{{image}}" alt="{{author}}">
+            {{/unless}}
+          </aside>
+          <div>{{{prevent-orphan content}}}</div>
+          <footer>
+            <span>Written By: {{author}}</span>
+            <p>Sources:</p>
+            <ul>
+              {{#each sources}}
+              <li><a href="{{./url}}">{{./title}}</a></li>
+              {{/each}}
+            </ul>
+            <ol>
+                {{#each myList}}
+                <li>index:{{@index}} key:{{@key}} this:{{this}}</li>
+                {{/each}}
+            </ol>
+            <ol>
+                {{#each myObj}}
+                <li>index:{{@index}} key:{{@key}} this:{{this}}</li>
+                {{/each}}
+            </ol>
+          </footer>
+        </article>
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+    <script src="hb_example.js"></script>
+    </body>
+</html>

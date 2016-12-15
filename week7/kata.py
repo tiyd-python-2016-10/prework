@@ -1,3 +1,19 @@
+import random
+import statistics
+
+def fisher_yates(l):
+    out_list = []
+    while l:
+        out_list.append(l.pop(random.randint(0, len(l)-1)))
+    return out_list
+
+def fisher_yates(l):
+    for i in range(len(l)-1):
+        j = random.randint(i, len(l)-1)
+        l[j], l[i] = l[i], l[j]
+    return l
+
+
 def is_anagram(lhs, rhs):
     return sorted(lhs) == sorted(rhs)
 
@@ -26,6 +42,16 @@ def test():
     assert not is_prime(4)
     assert not is_prime(6)
     assert not is_prime(9)
+    test_fisher_yates()
+
+def test_fisher_yates():
+    shuffled_lists = []
+    for i in range(10000):
+        shuffled_lists.append(fisher_yates(list(range(100))))
+    positional_sums = [sum(l) for l in zip(*shuffled_lists)]
+    tot = sum(positional_sums)
+    stddev = statistics.stdev(positional_sums)
+    print(stddev, tot, stddev/(tot/100))
 
 
 if __name__ == "__main__":

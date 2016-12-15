@@ -1,0 +1,3 @@
+{
+    "template":"<article class='post-container'>\n<ul>\n{{#each endpoint}}\n<li><a href='{{this}}'>{{@key}}</a></li>\n{{/each}}\n</ul>\n</footer>\n</article>"
+}
